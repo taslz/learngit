@@ -10,3 +10,14 @@ and next is setting (change) the remote key
 the last is clone the dir
 be sure in the correct dir 
 
+
+git sometime there are some misktakes such as:
+
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+ 
+Please make sure you have the correct access rights
+and the repository exists.
+
+the solut is :
+git remote set-url origin git@github.com:xxxxxx/xxxxxx.git
